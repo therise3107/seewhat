@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Planet:</strong>
+  <%= @space.planet %>
+</p>
+
+<p>
+  <strong>Des:</strong>
+  <%= @space.des %>
+</p>
+
+<%= link_to 'Edit', edit_space_path(@space) %> |
+<%= link_to 'Back', spaces_path %>
